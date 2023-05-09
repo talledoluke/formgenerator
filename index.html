@@ -11,7 +11,7 @@
 
 <body>
     <main class="container">
-        <center><h1>Talledo Form Maker!!</h1></center>
+        <center><h1><b>Talledo Form Maker!!</b></h1></center>
 		<hr>
         <select id="type" class="form-select">
             <option value="text">Text</option>
@@ -21,15 +21,16 @@
         </select>
         <input type="text" class="form-control mt-2" id="label" placeholder="Label">
         <div class="d-flex flex-row justify-content-end">
-		
+		<hr>
+		<div class="col text-center">
 		<button class="btn btn-danger mt-2" onclick="deleteElement()">Delete Element</button>
 		&nbsp;
             <button class="btn btn-primary mt-2" onclick="insert()">Insert Element</button>
         </div>
-		
+		</div>
         <hr>
         <div class="card p-2" id="display">
-            <center><h4 class="text-secondary">View Created Form Here</h4></center>
+            <center><h4 class="text-secondary">Your Generated Form Here</h4></center>
         </div>
     </main>
     <script src="script.js"></script>
