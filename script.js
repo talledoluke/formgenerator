@@ -6,7 +6,9 @@ const insert = () => {
         case 'text': appendText(label)
             break
         case 'button': appendButton(label)
-            break
+            break	
+		case 'radio': appendRadio(label)
+			break
     }
 }
 
@@ -30,3 +32,4 @@ const appendButton = (label = "No label") => {
 
     document.querySelector('#display').append(el)
 }
+
