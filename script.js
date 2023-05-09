@@ -9,7 +9,6 @@ const insert = () => {
     case 'button': 
       appendButton(label)
       break
-
   }
 }
 
